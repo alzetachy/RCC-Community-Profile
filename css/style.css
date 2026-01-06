@@ -172,7 +172,7 @@ section {
     background-color: var(--main);
     color: var(--background);
     border: 2px solid var(--second-bg);
-    transform: scale(1.06);
+    transform: scale(1.03);
 }
 
 .about img {
