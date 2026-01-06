@@ -1,0 +1,273 @@
+:root {
+    --background: #FFFFFF;
+    --second-bg: #e0eff857;
+    --main: #62ABD7;
+    --text: #000000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    text-decoration: none;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+body {
+    overflow-x: hidden;
+    background-color: var(--background);
+    color: var(--text);
+    font-family: "Rubik", sans-serif;
+}
+
+nav {
+    background-color: var(--background);
+} 
+
+nav .nav-link {
+    color: var(--text);
+    transition: 0.4s;
+    border-bottom: 2px solid transparent;
+}
+
+nav .nav-link:hover {
+    color: var(--main);
+    border-bottom: 2px solid var(--main);
+}
+
+section {
+    padding-top: 9rem;
+    padding-bottom: 5rem;
+}
+
+.hero {
+    min-height: 100vh;
+    color: var(--text);
+    padding-bottom: 9rem;
+}
+
+.hero h6 {
+    color: var(--main);
+    border-bottom: 2px solid var(--main);
+}
+
+.hero span {
+    color: var(--main);
+}
+
+.hero .btn {
+    background-color: var(--main);
+    color: var(--background);
+    border: 2px solid transparent;
+    transition: 0.5s;
+}
+
+.hero .btn:hover {
+    background-color: var(--background);
+    color: var(--main);
+    border: 2px solid var(--main);
+    transform: scale(1.03) translateY(-2px);
+    box-shadow: 0 0 20px var(--main);
+}
+
+.hero .btn2 {
+    background-color: var(--background);
+    color: var(--main);
+    border: 2px solid var(--main);
+    transition: 0.5s;
+}
+
+.hero .btn2:hover {
+    background-color: var(--main);
+    color: var(--background);
+    border: 2px solid transparent;
+    transform: scale(1.03) translateY(-4px);
+    box-shadow: 0 0 20px var(--main);
+}
+
+.hero .hero-footer {
+    bottom: 0;
+}
+
+.portfolio h1 {
+    color: var(--main);
+}
+
+.portfolio img {
+    height: 300px;
+    transition: 0.4s;
+}
+
+.portfolio img:hover {
+    opacity: 75%;
+    transform: scale(1.03);
+    box-shadow: 0 0 30px var(--main);
+}
+
+.services {
+    background-color: var(--second-bg);
+}
+
+.services h1 {
+    color: var(--main);
+}
+
+.services .card {
+    background-color: var(--second-bg);
+    border: 2px solid var(--main);
+    transition: 0.4s;
+}
+
+.services .card:hover {
+    background-color: var(--background);
+    border: 2px solid var(--main);
+    transform: scaleY(1.05);
+}
+
+.services i {
+    color: var(--background);
+    background-color: var(--main);
+}
+
+.services .btn {
+    background-color: var(--main);
+    color: var(--background);
+    border: 2px solid transparent;
+    transition: 0.5s;
+}
+
+.services .btn:hover {
+    background-color: var(--background);
+    color: var(--main);
+    border: 2px solid var(--main);
+    transform: translateY(-7px);
+    box-shadow: 0 0 15px var(--main);
+}
+
+.about h1 span {
+    color: var(--main);
+}
+
+.about .card {
+    background-color: var(--second-bg);
+    border: 2px solid var(--main);
+    transition: 0.7s;
+}
+
+.about .card i {
+    background: var(--main);
+    color: var(--background);
+    transition: 0.7s;
+}
+
+.about .card:hover { 
+    i {
+    background-color: var(--background);
+    color: var(--main);
+    }
+    background-color: var(--main);
+    color: var(--background);
+    border: 2px solid var(--second-bg);
+    transform: scale(1.06);
+}
+
+.about img {
+    transition: 0.4s;
+}
+
+.about img:hover {
+    transform: translateY(-7px);
+    box-shadow: 0 0 30px var(--main);
+}
+
+.about i {
+    color: var(--main);
+}
+
+.membership {
+    background-color: var(--second-bg);
+}
+
+.contact {
+    background-color: var(--second-bg);
+}
+
+.contact h5 {
+    color: var(--main);
+}
+
+.contact span {
+    color: var(--main);
+}
+
+.contact i {
+    color: var(--background);
+    background-color: var(--main);
+    transition: 0.4s;
+}
+
+.contact i:hover {
+    background-color: var(--second-bg);
+    color: var(--main);
+    transform: scale(1.03) translateY(-4px);
+    box-shadow: 0 0 25px var(--main);
+}
+
+.contact form {
+    background-color: var(--background);
+    border: 2px solid var(--main);
+    transition: 0.4s;
+}
+
+.contact form:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 0 15px var(--main);
+}
+
+.contact .btn-kirim {
+    background-color: var(--main);
+    color: var(--background);
+    border: 2px solid transparent;
+    transition: 0.5s;
+}
+
+.contact .btn-kirim:hover {
+    background-color: var(--background);
+    color: var(--main);
+    border: 2px solid var(--main);
+    transform: translateY(-2px);
+    box-shadow: 0 0 15px var(--main);
+}
+
+.contact .btn-loading {
+    background-color: var(--background);
+    color: var(--main);
+    border: 2px solid var(--main);
+}
+
+.contact .alert {
+    background-color: var(--main);
+    color: var(--background);
+    border: 2px solid var(--background);
+}
+
+.contact .btn-close {
+    color: var(--background);
+}
+
+footer i {
+    color: var(--background);
+    background-color: var(--main);
+    transition: 0.4s;
+}
+
+footer i:hover {
+    background-color: var(--second-bg);
+    color: var(--main);
+    transform: scale(1.03) translateY(-4px);
+    box-shadow: 0 0 25px var(--main);
+}
